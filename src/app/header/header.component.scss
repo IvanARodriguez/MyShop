@@ -1,0 +1,24 @@
+.main-header {
+  width: 100%;
+}
+.logo {
+  display: flex;
+  gap: 0.5rem;
+  place-content: center;
+  place-items: center;
+  h1 {
+    font-size: 18px;
+  }
+}
+.header {
+  margin: 1rem auto;
+  padding: 0.2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
